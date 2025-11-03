@@ -24,3 +24,8 @@ original paper: [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs
 - Training time can be long (10 hrs on A100 GPU).
 - FID evaluation time can be long about 4hrs for 50K samples on A100 GPU.
 - Need to adjust step size and samples for FID evaluation based on available resources.
+
+## Potential Improvements
+- Increasing the target steps and num_samples for FID evaluation have proven to yield significantly better results.
+- For conditional generation, consider using classifier-free guidance for improved sample quality.
+- Experiment with different architectures for the Unet model or even try flash attention.
