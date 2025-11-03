@@ -12,6 +12,11 @@ original paper: [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs
 6. Evaluate sample quality using FID score.
 7. Save and Display generated samples.
 
+## Sample Generated Image
+![Generated sample from DDPM](generated.png)
+
+
+
 ## Limitations
 - Requires extensive compute resources.
 - High memory consumption due to parameter-heavy models.
@@ -19,3 +24,4 @@ original paper: [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs
 - Training time can be long (10 hrs on A100 GPU).
 - FID evaluation time can be long about 4hrs for 50K samples on A100 GPU.
 - Need to adjust step size and samples for FID evaluation based on available resources.
+
