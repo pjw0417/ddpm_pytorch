@@ -1,7 +1,8 @@
 ### Demonstration of Denoising Diffusion Probabilistic Models (DDPM) with PyTorch
-This notebook demonstrates the implementation and training of Denoising Diffusion Probabilistic Models (DDPM) using PyTorch. The model is trained on the CIFAR-10 dataset to generate high-quality images.
 
-original paper: [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) by Ho et al., 2020.
+This notebook demonstrates the re-implementation, with my interpretation, and training of Denoising Diffusion Probabilistic Models (DDPM) using PyTorch. The model is trained on the CIFAR-10 dataset to generate high-quality images.
+
+Original paper: [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) by Ho et al., 2020.
 
 ## Steps
 1. Mount Google Drive and Install dependencies.
