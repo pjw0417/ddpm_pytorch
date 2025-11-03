@@ -1,7 +1,5 @@
-# Standard library
 from functools import wraps, partial
 
-# Third-party
 from packaging import version
 import torch
 from torch import nn, einsum
@@ -9,7 +7,6 @@ import torch.nn.functional as F
 from torch.nn import Module
 from einops import rearrange, repeat
 
-# Local
 from .norm import RMSNorm
 
 
