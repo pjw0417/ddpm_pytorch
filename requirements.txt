@@ -1,0 +1,14 @@
+torch==2.5.1
+torchvision==0.20.1
+
+numpy==1.26.4
+tqdm==4.67.1
+matplotlib==3.10.0
+pillow==11.1.0
+
+einops==0.8.1
+tensorboard==2.18.0
+
+pytorch-fid
+scipy
+ema-pytorch
